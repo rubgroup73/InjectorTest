@@ -95,7 +95,7 @@ button.ob_injector:hover span:after {
 	margin-top: 10px !important;
 }
 
-alert{
+.alertDiv{
 width:25%;
 height:max-content;
 background-color:rgba(244, 67, 54, .87);
