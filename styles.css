@@ -94,3 +94,16 @@ input[type="radio"] {
 	margin-right: 5px !important;
 	margin-top: 10px !important;
 }
+
+alert{
+width:25%;
+height:max-content;
+backgroundColor:rgba(244, 67, 54, .87);
+color: #EFF1F1;
+position:fixed; 
+left:10px;
+bottom:10px;
+border:1px solid #d2d3d3;
+zIndex:999999999;
+padding:1%;
+}
