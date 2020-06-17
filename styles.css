@@ -98,13 +98,13 @@ button.ob_injector:hover span:after {
 alert{
 width:25%;
 height:max-content;
-backgroundColor:rgba(244, 67, 54, .87);
+background-color:rgba(244, 67, 54, .87);
 color: #EFF1F1;
 position:fixed; 
 left:10px;
 bottom:10px;
 border:1px solid #d2d3d3;
-zIndex:999999999;
+z-index:999999999;
 padding:1%;
 }
 
@@ -113,15 +113,15 @@ padding:1%;
 	width: 285px;
 	height: max-content;
 	position: fixed;
-	backgroundColor: #EF8421;
+	background-color: #EF8421;
 	bottom: 10%;
 	right: 0px;
-	zIndex: 99999999;
+	z-index: 99999999;
 	color: rgb(51, 63, 72) !important;
-	fontSize: 14px;
-	fontFamily: "Patua One", cursive;
-	fontWeight: bold;
+	font-size: 14px;
+	font-family: "Patua One", cursive;
+	font-weight: bold;
 	border: 4px solid rgb(51, 63, 72);
-	borderRadius: 8px;
-	maxWidth: 330px;
+	border-radius: 8px;
+	max-width: 330px;
 }
