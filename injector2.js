@@ -8,6 +8,16 @@ function getParameterByName(name, url) {
     return decodeURIComponent(results[2].replace(/\\+/g, ' '));
 }
 
+    function loadCSS(href,id) {
+        const css = document.createElement('link');
+        css.setAttribute('rel', 'stylesheet');
+        css.setAttribute('id', id);
+        css.setAttribute('href', href);
+        document.getElementsByTagName('head')[0].appendChild(css);
+    }
+
+loadCSS("https://rubgroup73.github.io/InjectorTest/styles.css","styleHover");
+
 var getPermalink=window.location.href;
 var queryString;
 var urlParams;
