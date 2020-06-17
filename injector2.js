@@ -1,5 +1,4 @@
-window.OB_Injector = window.OB_Injector || {};
-window.OB_Injector = (function(){function getParameterByName(name, url) {
+function getParameterByName(name, url) {
     if (!url) url = window.location.href;
     name = name.replace(/[\\[\\]]/g, '\\$&');
     var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
@@ -249,8 +248,7 @@ var cprmInput=document.getElementById("CustomPermalink");
 cprmInput.setAttribute("data-src",cprmInput.value);
 };
 
-ChooseNew();})();
-
+ChooseNew();
 
 
 
