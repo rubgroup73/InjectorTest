@@ -107,3 +107,21 @@ border:1px solid #d2d3d3;
 zIndex:999999999;
 padding:1%;
 }
+
+#outbrainDiv1 {
+	direction: ltr;
+	width: 285px;
+	height: max-content;
+	position: fixed;
+	backgroundColor: #EF8421;
+	bottom: 10%;
+	right: 0px;
+	zIndex: 99999999;
+	color: rgb(51, 63, 72) !important;
+	fontSize: 14px;
+	fontFamily: "Patua One", cursive;
+	fontWeight: bold;
+	border: 4px solid rgb(51, 63, 72);
+	borderRadius: 8px;
+	maxWidth: 330px;
+}
