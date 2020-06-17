@@ -90,7 +90,7 @@ button.ob_injector:hover span:after {
 	padding: 5px !important;
 }
 
-input[type="radio"] {
+.input[type="radio"] {
 	margin-right: 5px !important;
 	margin-top: 10px !important;
 }
@@ -108,7 +108,7 @@ zIndex:999999999;
 padding:1%;
 }
 
-#outbrainDiv1 {
+#outbrainDiv1{
 	direction: ltr;
 	width: 285px;
 	height: max-content;
