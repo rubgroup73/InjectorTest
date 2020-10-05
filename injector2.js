@@ -30,7 +30,9 @@ var counter=0;
 var elems = document.body.getElementsByTagName("*");
 
 if(docLang=="ja"){
-doc.getElementById("tamsPRM").value+=docLang;
+let tempVal=doc.getElementById("tamsPRM").value;
+tempVal+=docLang;
+doc.getElementById("tamsPRM").value=tempVal;
 }
 
 
