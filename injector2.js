@@ -19,6 +19,8 @@ function getParameterByName(name, url) {
 loadCSS("https://rubgroup73.github.io/InjectorTest/styles.css","styleHover");
 
 var getPermalink=window.location.href;
+var docLang=document.documentElement.lang;
+var langString="";
 var queryString;
 var urlParams;
 var widgetId;
@@ -26,6 +28,12 @@ var isGallery;
 var Ob_Widgets=[];var Ob_Widgets2=[];Ob_Widgets3=[];
 var counter=0;
 var elems = document.body.getElementsByTagName("*");
+
+if(docLang=="ja"){
+doc.getElementById("tamsPRM").value+=docLang;
+}
+
+
 for(i=0;i<elems.length;i++){
 elems[i].removeAttribute("href");
 elems[i].removeAttribute("onclick");}
@@ -249,10 +257,3 @@ cprmInput.setAttribute("data-src",cprmInput.value);
 };
 
 ChooseNew();
-
-
-
-
-
-
-
