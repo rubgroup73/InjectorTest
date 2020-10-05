@@ -30,11 +30,11 @@ var Ob_Widgets=[];var Ob_Widgets2=[];Ob_Widgets3=[];
 var counter=0;
 var elems = document.body.getElementsByTagName("*");
 
-function ChckekDocLang(){
+
 if(docLang=="ja"){
 WidgetGalleryURL+=docLang;
 }
- ChckekDocLang();
+ 
 
 
 for(i=0;i<elems.length;i++){
