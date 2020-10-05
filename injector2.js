@@ -31,7 +31,7 @@ var counter=0;
 var elems = document.body.getElementsByTagName("*");
 
 
-if(docLang=="ja"){
+if(docLang=="ja"||docLang=="de"||docLang=="it"||docLang=="he"||docLang=="es"||docLang=="fr"){
 WidgetGalleryURL+=docLang;
 }
  
