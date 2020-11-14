@@ -1,3 +1,8 @@
+
+  chrome.storage.local.get(['OBlang'], function(result) {
+          console.log('Value currently is ' + result.OBlang);
+        });
+
 function getParameterByName(name, url) {
     if (!url) url = window.location.href;
     name = name.replace(/[\\[\\]]/g, '\\$&');
