@@ -19,7 +19,9 @@ function getParameterByName(name, url) {
 loadCSS("https://rubgroup73.github.io/InjectorTest/styles.css","styleHover");
 
 var getPermalink=window.location.href;
-var docLang=document.documentElement.lang;
+// var docLang=document.documentElement.lang;
+var docLang=localStorage.getItem("OBlang");
+
 var WidgetGalleryURL="http://tams.outbrain.com/widgetGallery/";
 var langString="";
 var queryString;
