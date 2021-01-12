@@ -19,8 +19,22 @@ function getParameterByName(name, url) {
 loadCSS("https://rubgroup73.github.io/InjectorTest/styles.css","styleHover");
 
 var getPermalink=window.location.href;
-// var docLang=document.documentElement.lang;
-var docLang=localStorage.getItem("OBlang");
+var docLang="";
+
+
+if(localStorage.getItem("OBlang")){
+   docLang=localStorage.getItem("OBlang");
+   }
+else if(document.documentElement.lang){
+    docLang=document.documentElement.lang;
+}
+else if(document.querySelector("[http-equiv=Content-Language]").content){
+    docLang=document.querySelector("[http-equiv=Content-Language]").content;
+
+}
+        
+
+
 
 var WidgetGalleryURL="http://tams.outbrain.com/widgetGallery/";
 var langString="";
