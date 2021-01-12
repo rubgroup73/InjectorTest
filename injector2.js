@@ -16,7 +16,7 @@ function getParameterByName(name, url) {
         document.getElementsByTagName('head')[0].appendChild(css);
     }
 
-loadCSS("styles.css","styleHover");
+loadCSS("https://rubgroup73.github.io/InjectorTest/styles.css","styleHover");
 
 var getPermalink=window.location.href;
 var docLang="";
