@@ -90,9 +90,19 @@ button.ob_injector:hover span:after {
 	padding: 5px !important;
 }
 
-.input[type="radio"] {
+
+	
+input[type="radio"].ob_injector{
+    background-color: initial !important;
+    cursor: default !important;
+    appearance: radio !important;
+    box-sizing: border-box !important;
+    margin: 3px 3px 0px 5px !important;
+    padding: initial !important;
+    border: initial !important;
 	margin-right: 5px !important;
 	margin-top: 10px !important;
+
 }
 
 #alertWidgets{
